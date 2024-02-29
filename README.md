@@ -1,41 +1,45 @@
-# Project Title / 프로젝트 이름
+# SHAREPLAT
 
-**[뱃지나 프로젝트에 관한 이미지들이 이 위치에 들어가면 좋습니다]**  
-One Paragraph of project description goes here / 프로젝트의 전반적인 내용에 대한 요약을 여기에 적습니다
 
-## Getting Started / 어떻게 시작하나요?
+## 실행 커맨드
 
-이 곳에서 설치에 관련된 이야기를 해주시면 좋습니다.
-
-### Prerequisites / 선행 조건
-
-아래 사항들이 설치가 되어있어야합니다.
+main.py 파일이 있는 폴더까지 cd로 접속 후
 
 ```
-예시
+sudo nohup python3 main.py &
 ```
 
-### Installing / 설치
+nohup + & 까지 해줘야 백그라운드에서 실행 (터미널을 종료해도 파이썬파일이 계속 실행된다.)
 
-아래 사항들로 현 프로젝트에 관한 모듈들을 설치할 수 있습니다.
+## PID값 확인 커맨드
 
-```
-예시
-```
-
-## Running the tests / 테스트의 실행
-
-어떻게 테스트가 이 시스템에서 돌아가는지에 대한 설명을 합니다
-
-### 테스트는 이런 식으로 동작합니다
-
-왜 이렇게 동작하는지, 설명합니다
 
 ```
-예시
+ps -ef | grep main.py
 ```
 
-### 테스트는 이런 식으로 작성하시면 됩니다
+main.py만 보고싶을때 위의 코드를 사용하고 실행되고 있는 모든 파일을 확인하려면
+
+![image](https://github.com/seonguk0893/shareplat/assets/145532557/7f4f7423-3b79-413d-a830-5765e9255b69)
+
+```
+ps -ef 
+```
+이거만 실행하면 된다.
+
+## 백그라운드 실행 종료
+
+
+```
+sudo kill -9 PID값 (위의 사진을 보면 root,ubuntu 바로 옆에 있는 숫자가 PID값임.)
+```
+
+-9는 강제종료를 뜻하는 코드이고 위에서 확인한 PID값을 입력.
+
+
+## 사이트 링크
+
+www.shareplat.net
 
 ```
 예시
@@ -44,22 +48,3 @@ One Paragraph of project description goes here / 프로젝트의 전반적인 �
 ## Deployment / 배포
 
 Add additional notes about how to deploy this on a live system / 라이브 시스템을 배포하는 방법
-
-## Built With / 누구랑 만들었나요?
-
-* [이름](링크) - 무엇 무엇을 했어요
-* [Name](Link) - Create README.md
-
-## Contributiong / 기여
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. / [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) 를 읽고 이에 맞추어 pull request 를 해주세요.
-
-## License / 라이센스
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details / 이 프로젝트는 MIT 라이센스로 라이센스가 부여되어 있습니다. 자세한 내용은 LICENSE.md 파일을 참고하세요.
-
-## Acknowledgments / 감사의 말
-
-* Hat tip to anyone whose code was used / 코드를 사용한 모든 사용자들에게 팁
-* Inspiration / 영감
-* etc / 기타
