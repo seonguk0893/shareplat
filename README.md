@@ -40,11 +40,3 @@ sudo kill -9 PID값 (위의 사진을 보면 root,ubuntu 바로 옆에 있는 �
 ## 사이트 링크
 
 www.shareplat.net
-
-```
-예시
-```
-
-## Deployment / 배포
-
-Add additional notes about how to deploy this on a live system / 라이브 시스템을 배포하는 방법
