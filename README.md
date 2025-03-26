@@ -1,5 +1,4 @@
-# SHAREPLAT  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fseonguk0893%2Fshareplat.git&count_bg=%233088E9&title_bg=%23D3CBCB&icon=&icon_color=%23E7E7E7&title=person&edge_flat=false)](https://hits.seeyoufarm.com)
-
+# SHAREPLAT
 <br>
 
 
@@ -53,6 +52,15 @@ sudo kill -9 PID값
 
 <br>
 
+## 페이지
+
+### COMPANY, BUSINESS, CONTACT 3페이지로 구성
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6f91e314-2419-47da-b6f9-51fa8fce646b">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d60b8478-3d41-403e-9fa2-a9eaf3aa861b">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/2495270f-358c-4030-837a-86ab71195ef2">
+
+
 ## 사이트 링크
 
-www.shareplat.net
+www.shareplat.net (현재는 다른 디자인으로 업그레이드 됨)
